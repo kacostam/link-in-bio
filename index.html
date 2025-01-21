@@ -4,7 +4,19 @@
 <head>
   <title>Karla's links</title>
   <meta charset="UTF-8">    <!-- expansion of characters to use on our webpage: UTF-8 vs ASCII -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- links for google fonts below -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+  <!-- below the link to add font awesome and replace social media titles with icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
   <style>
+    html{
+      min-height: 100%;
+    }
+
     *{
       border: thin red solid;
     }
@@ -38,9 +50,11 @@
 
     .name-row{
       text-align: center;
-      font-size: 16px;  
+      font-size: 20px;  
       color: white; 
-      margin-bottom: 10px;   
+      margin-bottom: 10px;
+      font-family: "Ruda", serif;
+      font-weight: 700;   
     }
 
     .social-icons-row{
@@ -86,11 +100,17 @@
     </div>
 
     <div class="social-icons-row">
-      <a href="https://github.com/kacostam">Github</a>
+      <a href="https://github.com/kacostam">
+        <i class="fa-brands fa-github"></i> <!-- adds the icon for github -->
+      </a>
 
-      <a href="https://www.instagram.com/karlacstam/">Instagram</a>
+      <a href="https://www.instagram.com/karlacstam/">
+        <i class="fa-brands fa-instagram"></i> <!-- adds the icon for instagram -->
+      </a>
 
-      <a href="https://www.linkedin.com/in/karla-acostam/">Linkedin</a>
+      <a href="https://www.linkedin.com/in/karla-acostam/">
+        <i class="fa-brands fa-linkedin"></i> <!-- adds the icon for linkedin -->
+      </a>
     </div>
 
     <div class="links-row">  
